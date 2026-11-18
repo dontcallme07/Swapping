@@ -1,10 +1,17 @@
-a = 5
-b = 10
-print("Before swapping:")
-print("a =",a,"b =",b)
+# Program to swap two numbers
+# Get two numbers from the user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-temp = a
-a = b
-b = temp
-print("After swapping:")
-print("a =",a,"b =",b)
+# Display values before swapping
+print("\nBefore swapping:")
+print("First number =", a)
+print("Second number =", b)
+
+# Swap the values
+a, b = b, a
+
+# Display values after swapping
+print("\nAfter swapping:")
+print("First number =", a)
+print("Second number =", b)
